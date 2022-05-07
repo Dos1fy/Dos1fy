@@ -2,11 +2,33 @@
  "name": "Ma1n",
  "short_name": "Ma1n",
  "start_url": "https://dos1fy.github.io",
- "description": "",
+ "description": "так надо",
  "display": "standalone",
  "orientation": "any",
  "theme_color": "F5DEB3",
  "background_color": "F5DEB3",
- "icons": [],
+ "icons": [
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+},
  "scope": "https://dos1fy.github.io"
 }
