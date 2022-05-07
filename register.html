@@ -9,7 +9,22 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin="anonymous">
 </head>
+<script>
+  const handleChange = (isChecked) => {
+    if (isChecked) {
+      document.body.setAttribute('dark', '');
+    } else {
+      document.body.removeAttribute('dark');
+    }
+  }
+</script>
 <body>
+  <input type="checkbox" onchange="handleChange(this.checked)" id="lol-checkbox" />
+<label id="button" for="lol-checkbox">
+  <div id="knob"></div>
+  <div id="subscribe">Light</div>
+  <div id="alright">Dark</div>
+</label>
 	<div class="main">
 		<div class="text-main">
 			<img src="avatar.png" width="250" height="250">
