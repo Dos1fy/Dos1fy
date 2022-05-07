@@ -129,7 +129,7 @@ button:hover {
 #arrow {
   height: 0;
   width: 0;
-  border-bottom: 10px solid #fff;
+  border-bottom: 10px solid #F5DEB3;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   position: relative;
