@@ -432,9 +432,9 @@ input[type="checkbox"] {
   background-color: #000;
   border-radius: 350px;
   cursor: pointer;
-  transform: scale(0.4);
+  transform: scale(0.2);
   margin: -96px;
-  margin-left: -150px;
+  margin-left: -162px;
 }
 
 #knob {
