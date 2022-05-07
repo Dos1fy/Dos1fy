@@ -78,7 +78,7 @@ h1 span {
 }
 .portfolio h2{
 	font-size: 3rem;
-	color: #987654;
+	color: var(--var-main-bg);
 	font-family: Arial;
 	text-transform: uppercase;
 	text-align: center;
