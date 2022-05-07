@@ -1,0 +1,12 @@
+{
+ "name": "Ma1n",
+ "short_name": "Ma1n",
+ "start_url": "https://dos1fy.github.io",
+ "description": "",
+ "display": "standalone",
+ "orientation": "any",
+ "theme_color": "F5DEB3",
+ "background_color": "F5DEB3",
+ "icons": [],
+ "scope": "https://dos1fy.github.io"
+}
