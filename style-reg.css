@@ -12,13 +12,13 @@
 .main{
 	width: 100%;
 	height: 80vh;
-	background-color: #F5DEB3;
+	background-color: var(--var-main-bg);
 }
 .text-main{
 	position: relative;
 	text-align: center;
 	top: 10%;
-	color: #696969;
+	color: var(--var-body-fc);
 }
 .main h1{
 	font-size: 4rem;
@@ -58,7 +58,7 @@ html, body { margin: 0; }
 body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #F5DEB3;
+  background-color: var(--var-main-bg);
 }
 
 #wrapper, label, #arrow, button span { transition: all .5s cubic-bezier(.6,0,.4,1); }
@@ -116,7 +116,7 @@ button {
   background: #d6a954;
   border: none;
   border-radius: 8px;
-  color: #fff;
+  color: var(--var-header-bg);
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
   font-size: 27px;
@@ -140,7 +140,7 @@ button:hover {
 #arrow {
   height: 0;
   width: 0;
-  border-bottom: 10px solid #F5DEB3;
+  border-bottom: 10px solid var(--var-main-bg);
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   position: relative;
