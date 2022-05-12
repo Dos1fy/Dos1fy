@@ -18,9 +18,15 @@
       document.body.removeAttribute('dark');
     }
   }
+      var lolcheckbox = document.getElementById('lolcheckbox'),
+      lol = document.getElementById('lol');
+    lolcheckbox.addEventListener('click', fPlay, false);
+    function fPlay() {
+      lol.play();
+    }
 </script>
 <body>
-  <input type="checkbox" onchange="handleChange(this.checked)" id="lol-checkbox" />
+  <input type="checkbox" onchange="handleChange(this.checked)" id="lolcheckbox" />
 <label id="button" for="lol-checkbox">
   <div id="knob"></div>
   <div id="subscribe">Light</div>
@@ -63,6 +69,13 @@
         </script>
         
         </body>
-        </div>       
+        </div>
+        <audio id="lol">
+  <source src="sounds/ogg/noise.ogg" type="audio/ogg">
+</audio>
+  
+<script>
+
+</script>       
 </body>
 </html>
