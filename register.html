@@ -8,33 +8,11 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin="anonymous">
-    <link rel="manifest" href="/manifest.json"> <script src="/app.js"></script>
 </head>
-<script>
-  const handleChange = (isChecked) => {
-    if (isChecked) {
-      document.body.setAttribute('dark', '');
-    } else {
-      document.body.removeAttribute('dark');
-    }
-  }
-      var lolcheckbox = document.getElementById('lolcheckbox'),
-      lol = document.getElementById('lol');
-    lolcheckbox.addEventListener('click', fPlay, false);
-    function fPlay() {
-      lol.play();
-    }
-</script>
 <body>
-  <input type="checkbox" onchange="handleChange(this.checked)" id="lolcheckbox" />
-<label id="button" for="lol-checkbox">
-  <div id="knob"></div>
-  <div id="subscribe">Light</div>
-  <div id="alright">Dark</div>
-</label>
 	<div class="main">
 		<div class="text-main">
-			<img src="avatar.png" width="250" height="250">
+			<a href="index.html"><img src="avatar.png" width="250" height="250"></a>
 			<h1>user id<span>_</span></h1>
 		</div>
 	</div>
@@ -69,13 +47,6 @@
         </script>
         
         </body>
-        </div>
-        <audio id="lol">
-  <source src="sounds/ogg/noise.ogg" type="audio/ogg">
-</audio>
-  
-<script>
-
-</script>       
+        </div>       
 </body>
 </html>
