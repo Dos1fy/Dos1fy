@@ -1,5 +1,5 @@
 self.addEventListener('install', function(event) {
-const indexPage = new Request('https://dos1fy.github.io');
+const indexPage = new Request('https://dos1fy.github.io/ArmStairs.github.io/');
 event.waitUntil(
 fetch(indexPage).then(function(response) {
 return caches.open('pwabuilder-offline').then(function(cache) {
