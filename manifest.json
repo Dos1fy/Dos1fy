@@ -1,7 +1,7 @@
 {
- "name": "ArmStairs",
- "short_name": "ArmStairs",
- "start_url": "https://dos1fy.github.io/ArmStairs.github.io/",
+ "name": "Dosify",
+ "short_name": "Dosify",
+ "start_url": "https://dos1fy.github.io/",
  "description": "так надо",
  "display": "standalone",
  "orientation": "any",
@@ -29,5 +29,5 @@
             "type": "image/png"
         }
     ],
- "scope": "https://dos1fy.github.io/ArmStairs.github.io/"
+ "scope": "https://dos1fy.github.io/"
 }
