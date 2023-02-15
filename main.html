@@ -16,7 +16,24 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="manifest" href="/manifest.json"> <script src="/app.js"></script>
 </head>
+<header>
+		<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="index.html">Main Side</a></li>
+      <li><a class="menu__item" href="portfolio.html">Portfolio</a></li>
+      <li><a class="menu__item" href="order.html">Order</a></li>
+      <li><a class="menu__item" href="register.html">Account</a></li>
+      <li><a class="menu__item" href="mobile app.html">Download</a></li>
+    </ul>
+  </div>
+</header>
 <body>
+
 <input type="checkbox" onchange="handleChange(this.checked)" id="lol-checkbox" />
 <label id="button" for="lol-checkbox">
   <div id="knob"></div>
